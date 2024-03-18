@@ -1,6 +1,7 @@
 import "./ContentSection.css";
 
 import ProfilePicture from "../../assets/portraits/profile-picture.png"
+import MyResume from "../../assets/resume.pdf";
 
 const ContentSection = () => {
   const linkStyle = {
@@ -20,7 +21,7 @@ const ContentSection = () => {
         </div>
         <div className="buttons">
           <div className="button">
-          <a href="/resume" target="_blank" rel="noopener noreferrer" style={linkStyle}>See Resume</a>
+          <a href={MyResume} target="_blank" rel="noopener noreferrer" style={linkStyle}>See Resume</a>
           </div>
           {/* <div className="button">
             <div className="see-work">{`See Work `}</div>
