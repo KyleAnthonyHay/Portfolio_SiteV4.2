@@ -1,5 +1,6 @@
 import "./ContentSection.css";
 
+import ProfilePicture from "../../assets/portraits/profile-picture.png"
 
 const ContentSection = () => {
   const linkStyle = {
@@ -30,7 +31,7 @@ const ContentSection = () => {
         <img
           className="profilepicture-icon"
           alt="Profile Picture"
-          src="/profilepicture@2x.png"
+          src={ProfilePicture}
         />
       </div>
     </div>

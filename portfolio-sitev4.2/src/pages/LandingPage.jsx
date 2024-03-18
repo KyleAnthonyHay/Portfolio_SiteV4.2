@@ -11,7 +11,8 @@ const Desktop = () => {
   return (
     <div className="desktop-1">
       <NavBar />
-      {/* <ContentSection />
+      <ContentSection />
+      {/* 
       <TechnologySlider />
       <WorkSection />
       <AboutSection />
