@@ -14,10 +14,11 @@ const Desktop = () => {
       <ContentSection />
       <TechnologySlider />
       <WorkSection />
+      <AboutSection />
       {/* 
       
      
-      <AboutSection />
+      
       <Footer /> */}
     </div>
   );

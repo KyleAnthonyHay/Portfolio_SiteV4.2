@@ -1,6 +1,7 @@
 import React from 'react';
 import './AboutSection.css'; // Importing the CSS file
 
+import Image from "../assets/portraits/profile-picture2.jpg";
 
 const AboutSection = () => {
   const aboutText = "K"  
@@ -14,7 +15,7 @@ const AboutSection = () => {
             <p>I enjoy making <a href="https://www.instagram.com/annointedbeats/" target="_blank"><span>music</span></a>, <a href="https://www.instagram.com/annointedproductions/" target="_blank"><span>digital content</span></a>, and visually pleasing designs. I am absolutely in love with brands like <a href="https://www.apple.com" target="_blank"><span>Apple</span></a> and <a href="https://arc.net/" target="_blank"><span>The Arc Browser</span></a>; I try to model my designs to resemble their aesthetic.</p>
         </div>
         <div className="image-container">
-            <img src="/portraits/profile2.jpg" alt="Profile" className="about-profile-image"/>
+            <img src={Image} alt="Profile" className="about-profile-image"/>
         </div>
     </div>
   );
