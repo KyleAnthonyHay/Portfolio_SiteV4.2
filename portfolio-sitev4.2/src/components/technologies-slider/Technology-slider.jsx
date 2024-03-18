@@ -1,6 +1,19 @@
 import React, { useEffect } from 'react';
 import "./Technology-slider.css"
 
+// Assets
+import Swift from "../../assets/technologies/swift.svg";
+import React2 from "../../assets/technologies/reactjs.svg";
+import Flutter from "../../assets/technologies/flutter.svg";
+import Cplusplus from "../../assets/technologies/c++.svg";
+import Python from "../../assets/technologies/python.svg";
+import Tailwind from "../../assets/technologies/tailwindcss.svg";
+import Django from "../../assets/technologies/django.svg";
+import Figma from "../../assets/technologies/figma.svg";
+import MongoDB from "../../assets/technologies/mongodb.svg";
+import Typescript from "../../assets/technologies/typescript.svg";
+import Firebase from "../../assets/technologies/firebase.svg";
+
 const TechnologySlider = () => {
     const loopScroll = () => {
   const workContainer = document.querySelector('.slider');
@@ -37,17 +50,17 @@ const TechnologySlider = () => {
   return (
     <div className='technology-slider-section'>
         <div className='slider'>
-          <img className="tech-icon" alt="" src="/swift.svg" />
-          <img className="tech-icon" alt="" src="/technologies/reactjs.svg" />
-          <img className="tech-icon" alt="" src="/flutter.svg" />
-          <img className="tech-icon" alt="" src="/technologies/c++.svg" />
-          <img className="tech-icon" alt="" src="/technologies/python.svg" />
-          <img className="tech-icon" alt="" src="/technologies/tailwindcss.svg" />
-          <img className="tech-icon" alt="" src="/technologies/django.svg" />
-          <img className="tech-icon" alt="" src="/technologies/figma.svg" />
-          <img className="tech-icon" alt="" src="/technologies/mongodb.svg" />
-          <img className="tech-icon" alt="" src="/technologies/typescript.svg" />
-          <img className="tech-icon" alt="" src="/firebase.svg" />
+          <img className="tech-icon" alt="" src={Swift} />
+          <img className="tech-icon" alt="" src={React2} />
+          <img className="tech-icon" alt="" src={Flutter} />
+          <img className="tech-icon" alt="" src={Cplusplus} />
+          <img className="tech-icon" alt="" src={Python} />
+          <img className="tech-icon" alt="" src={Tailwind} />
+          <img className="tech-icon" alt="" src={Django} />
+          <img className="tech-icon" alt="" src={Figma} />
+          <img className="tech-icon" alt="" src={MongoDB} />
+          <img className="tech-icon" alt="" src={Typescript} />
+          <img className="tech-icon" alt="" src={Firebase} />
         </div>
     </div>
   );

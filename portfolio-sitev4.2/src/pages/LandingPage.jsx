@@ -12,9 +12,11 @@ const Desktop = () => {
     <div className="desktop-1">
       <NavBar />
       <ContentSection />
-      {/* 
       <TechnologySlider />
       <WorkSection />
+      {/* 
+      
+     
       <AboutSection />
       <Footer /> */}
     </div>
