@@ -15,11 +15,7 @@ const Desktop = () => {
       <TechnologySlider />
       <WorkSection />
       <AboutSection />
-      {/* 
-      
-     
-      
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };

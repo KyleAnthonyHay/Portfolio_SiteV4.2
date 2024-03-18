@@ -1,4 +1,5 @@
 import "./BaseFrame.css";
+import Logo from "../../assets/icons/logo.png";
 
 const BaseFrame = () => {
   return (
@@ -11,7 +12,7 @@ const BaseFrame = () => {
               className="logo-icon"
               loading="lazy"
               alt=""
-              src="/icons/logo@2x.png"
+              src={Logo}
             />
             <div className="thanks-for-stopping-container">
               <span>{`Thanks for stopping by `}</span>
