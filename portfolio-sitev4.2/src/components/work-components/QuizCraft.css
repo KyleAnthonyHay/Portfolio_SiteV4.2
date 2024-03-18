@@ -1,0 +1,12 @@
+.quizCraft-graphic {
+  position: absolute;
+  right: -.5rem;
+  height: 26rem;
+  object-fit: contain;
+
+  transition: 1s;
+}
+.quizCraft-graphic:hover {
+  transform: translateX(-0.5rem);
+  scale: 1.02;
+}

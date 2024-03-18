@@ -1,0 +1,177 @@
+.main-frame {
+  margin-top: -29px;
+  margin-left: -245px;
+  width: 1514px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--dark-white-10);
+  box-sizing: border-box;
+  max-width: 148%;
+  flex-shrink: 0;
+}
+.logo-icon {
+  width: 92px;
+  height: 92px;
+  position: relative;
+  object-fit: cover;
+  transition: 1s;
+}
+.logo-icon:hover {
+  transform: translateY(-0.3rem);
+  scale: 1.05;
+  cursor: pointer;
+}
+.span {
+  font-size: 20px;
+}
+.thanks-for-stopping-container {
+  position: relative;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kyle-anthony-hay-all {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.inner-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 93px;
+  min-width: 310px;
+}
+.links1,
+.footer-link {
+  position: relative;
+  font-size: 1.2rem; 
+  transition: 1s;
+  color: white;
+  text-decoration: none;
+}
+.footer-links,
+.list-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list-items {
+  gap: var(--gap-base);
+  color: var(--basic-light-gray);
+}
+.footer-links {
+  gap: var(--gap-13xl);
+}
+.footer-link:hover {
+  color: rgb(170, 45, 187);
+  transform: translateY(-0.1rem);
+  scale: 1.01;
+  cursor: pointer;
+}
+.elsewhere,
+.email,
+.github,
+.linkedin,
+.twitter {
+  position: relative;
+}
+.list-items1 {
+  flex-direction: column;
+  gap: var(--gap-base);
+  color: var(--basic-light-gray);
+}
+.link-list,
+.links2,
+.list-items1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.links2 {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.link-list {
+  width: 286px;
+  flex-direction: row;
+  gap: 120px;
+  min-width: 286px;
+  font-size: var(--inter-16-regular-size);
+  color: var(--basic-white);
+}
+.base-frame,
+.footerweb {
+  overflow: hidden;
+  display: flex;
+}
+.footerweb {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 42px 0;
+  gap: 20px;
+  text-align: left;
+  font-size: var(--inter-14-regular-size);
+  color: var(--basic-medium-gray);
+  font-family: var(--inter-16-regular);
+}
+.base-frame {
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 208px 13px;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .base-frame {
+    padding-left: var(--padding-85xl);
+    padding-right: var(--padding-85xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .inner-frame,
+  .link-list {
+    flex: 1;
+  }
+  .footerweb {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .footerweb {
+    flex-direction: column;
+
+  }
+  .inner-frame {
+    gap: 10px;
+    align-items: center;
+  }
+  .base-frame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logo {
+    align-items: center;
+  }
+  .link-list {
+    display: flex;
+    justify-content: center;
+  }
+  .kyle-anthony-hay-all {
+    display: none;
+  }
+}

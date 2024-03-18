@@ -1,0 +1,140 @@
+.kyle-anthony {
+  color: var(--basic-white);
+  transition: 1s;
+  display: inline-flex;
+}
+.kyle-anthony:hover {
+  color: rgb(170, 45, 187);
+  transform: translateY(-0.1rem);
+  scale: 1.01;
+  cursor: default;
+}
+.im-kyle-anthony {
+  width: 50rem;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.a-mobileweb-developer {
+  width: 45rem;
+  font-size: var(--inter-24-medium-size);
+  line-height: 2.25rem;
+  display: inline-block;
+}
+.a-mobileweb-developer,
+.see-work {
+  position: relative;
+  font-weight: 500;
+}
+.button {
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #1a1a1a, #131313);
+  box-shadow: var(--dark-button-shadow);
+  height: 3.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  box-sizing: border-box;
+  transition: 1s;
+}
+.button:hover{
+  transform: translateY(-0.3rem);
+  scale: 1.01;
+  /* background: linear-gradient(180deg, #aa2dbb, #000000); */
+}
+.plus-icon {
+  width: 1.5rem;
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button1 {
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #1a1a1a, #131313);
+  box-shadow: var(--dark-button-shadow);
+  height: 3.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.buttons,
+.herotext {
+  display: flex;
+  align-items: flex-start;
+}
+.buttons {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 1rem;
+  font-size: var(--inter-18-medium-size);
+  color: var(--basic-white);
+}
+.herotext {
+  height: 23.813rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem 0;
+}
+.profilepicture-icon {
+  width: 26rem;
+  position: relative;
+  border-radius: var(--br-331xl);
+  object-fit: cover;
+  transition: 1s;
+}
+.profilepicture-icon:hover {
+  transform: translateY(-0.2rem);
+}
+.circle-portrait,
+.herosection {
+  display: flex;
+  flex-direction: row;
+}
+.circle-portrait {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 0;
+  box-sizing: border-box;
+}
+.herosection {
+  display: flex;
+  margin-top: 10rem;
+  align-items: center;
+
+  font-size: var(--inter-80-extra-bold-size);
+  color: var(--basic-dark-gray);
+  font-family: var(--inter-18-medium);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .herosection {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 4rem;
+  }
+  .herotext {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+
+  }
+  .profilepicture-icon, .button:nth-child(2) {
+      display: none;
+    }
+ 
+  .im-kyle-anthony, .a-mobileweb-developer {
+    max-width: 100%; 
+    width: auto; 
+  }
+  
+}

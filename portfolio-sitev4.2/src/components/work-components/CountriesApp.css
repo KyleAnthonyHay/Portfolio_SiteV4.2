@@ -1,0 +1,12 @@
+.countries-icon {
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  width: 25.563rem;
+  object-fit: cover;
+  transition: 1s;
+}
+.countries-icon:hover {
+  transform: translateY(-0.5rem);
+  scale: 1.01;
+}

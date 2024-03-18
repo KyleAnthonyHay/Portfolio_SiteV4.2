@@ -1,0 +1,16 @@
+.phone-icon-munchMap {
+  position: absolute;
+  right: -.5rem;
+  height: 26rem;
+  object-fit: contain;
+  transition: 1s;
+}
+.phone-icon-munchMap:hover {
+  transform: translateX(-0.5rem);
+  scale: 1.01;
+}
+.django-icon {
+  width: 4rem;
+  position: relative;
+  height: 4.5rem;
+}

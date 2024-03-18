@@ -1,0 +1,18 @@
+.desktop-1 {
+  display: flex; /* Use flexbox to align children */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: flex-start;
+  padding-top: 3rem;
+  width: 100%;
+  
+
+  position: relative;
+
+
+  overflow: hidden;
+}
+/* Hide scrollbar */
+.desktop-1::-webkit-scrollbar {
+  display: none;
+}

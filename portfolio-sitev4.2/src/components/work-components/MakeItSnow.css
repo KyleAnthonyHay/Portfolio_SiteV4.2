@@ -1,0 +1,11 @@
+#visionOS-graphic {
+  position: absolute;
+  right: -.5rem;
+  height: 22rem;
+  object-fit: contain;
+  transition: 1s;
+}
+#visionOS-graphic:hover {
+  transform: translateX(-0.5rem);
+  scale: 1.02;
+}

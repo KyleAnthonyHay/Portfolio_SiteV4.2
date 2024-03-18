@@ -1,0 +1,155 @@
+.colorconnect-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--basic-white);
+    font-family: var(--inter-18-medium);
+    /* padding top and bottom */
+    padding: 3rem 3rem;
+    transition: .8s;
+}
+.colorconnect-card:hover {
+    transform: translateY(-1rem);
+}
+  
+.project-card {
+    width: 64rem;
+    height: 34rem;
+    position: relative;
+    border-radius: var(--br-13xl);
+    background-color: var(--basic-onyx);
+    border: 1px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    /* align items center vertically */
+    align-items: center;
+}
+.description,
+.description-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem 0;
+}
+.firebase-icon,
+.swift-icon {
+  width: 4.375rem;
+  position: relative;
+  height: 4.375rem;
+}
+.firebase-icon {
+    width: 3.159rem;
+  }
+.description-text {
+    height: 20rem;
+}
+.description {
+    position: absolute;
+    top: 3.75rem;
+    left: 3.75rem;
+}
+.project-icons {
+    width: 8.534rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 2.188rem;
+}
+.project-name {
+    width: 31.438rem;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    min-height: 2.5rem;
+    max-height: 6.25rem;
+}
+.project-summary {
+    width: 31.438rem;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-13xl);
+    color: var(--basic-dark-gray);
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.card-button {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 0.5rem;
+    font-size: var(--inter-18-medium-size);
+    transition: 1s;
+}
+.card-button:hover {
+    transform: translateY(-0.25rem);
+
+}
+.go-to-code {
+    position: relative;
+    font-weight: 500;
+}
+.vector-icon {
+    width: 1.125rem;
+    position: relative;
+    height: 0.75rem;
+}
+
+/* Mobile View */
+@media screen and (max-width: 450px) {
+    .colorconnect-card {
+        width: 100%;
+        padding: 4rem; 
+        box-sizing: border-box; /* Ensures padding is included in width */
+    }
+
+    .project-card {
+        width: 100%; /* Make the card responsive */
+        height: auto; /* Adjust height to maintain aspect ratio */
+        aspect-ratio: 1; /* Creates a square shape */
+        padding: 1rem; /* Add some padding inside the card */
+        box-sizing: border-box; /* Includes padding in the width and height */
+    }
+
+    .description {
+        position: static; /* Adjust positioning to fit within the card naturally */
+        padding: 0.5rem; /* Add padding to ensure content does not touch the edges */
+        box-sizing: border-box; /* Ensure padding is included in the calculation NOT NEEDED?*/
+        align-items: center; /* Center align the items */
+    }
+
+    .project-icons, .description-text {
+        gap: 0.5rem; /* Adjust gap to manage space */
+    }
+    .project-icons img {
+        width: 3.5rem; 
+    }
+
+    .project-name {
+        text-align: center;
+        font-size: 1.4rem; 
+        /* wrap */
+    }
+    .project-summary {
+        text-align: center;
+        font-size: 1.2rem; 
+    }
+
+    .card-button {
+        gap: 0.2rem; /* Adjust gap between text and icon */
+    }
+    .colorfulPhone-icon, .countries-icon, #visionOS-graphic, .phone-icon-countries, .phone-icon-munchMap, .quizCraft-graphic {
+        display: none;
+    }
+}
