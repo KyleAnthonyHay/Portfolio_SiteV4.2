@@ -1,11 +1,17 @@
 import "./NavBar.css";
 import React from "react";
+import { HashLink } from 'react-router-hash-link';
 
 //Assets
 import Logo from "../../assets/icons/logo.png";
 import LinkedIn from "../../assets/socials/linkedin.svg";
 import GitHub from "../../assets/socials/github.svg";
 import X from "../../assets/socials/x.svg";
+
+
+{/* <HashLink smooth to="/path#hash">
+  Link to Hash Fragment
+</HashLink>; */}
 
 const AboutContainer = () => {
   const handleLinkClick = (id) => {
@@ -23,7 +29,7 @@ const AboutContainer = () => {
         <img className="faceemoji-icon" alt="" src = {Logo} />
         {/* <div className="navbar-links">About</div> */}
         <a href="https://medium.com/@haykyle917" className="navbar-links" target="_blank"><div>Blog</div></a>
-        {/* <div className="navbar-links" onClick={handleLinkClick("work-anchor")}>Work</div> */}
+        {/* <HashLink smooth to="#work-anchor" className="navbar-links">Work</HashLink> */}
         <a href="mailto:haykyle917@gmail.com" className="navbar-links"><div>Contact</div></a>
 
       </div>
