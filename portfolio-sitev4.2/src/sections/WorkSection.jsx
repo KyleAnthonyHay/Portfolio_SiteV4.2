@@ -5,6 +5,7 @@ import MakeItSnow from "../components/work-components/MakeItSnow";
 import "./WorkSection.css";
 import CountriesApp from "../components/work-components/CountriesApp";
 import MunchMap from "../components/work-components/MunchMap";
+import SocialMediaApp from '../components/work-components/SocialMediaApp';
 
 const WorkSection = () => {
   return (
@@ -15,6 +16,7 @@ const WorkSection = () => {
         <CountriesApp/>
         <QuizCraft/>
         <MunchMap/>
+        <SocialMediaApp />
         <ColorfulConnectContainer />
       </div>
      
