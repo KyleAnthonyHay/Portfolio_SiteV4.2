@@ -13,7 +13,7 @@ const ContentSection = () => {
       <div className="herotext">
         <div className="im-kyle-anthony">
           <span>{`Hi, my name is `}</span>
-          <span className="kyle-anthony">Kyle-Anthony</span>
+          <span className="kyle-anthony">Kyle-Anthony2</span>
         </div>
         <div className="a-mobileweb-developer">
           Mobile/Web Developer and AI/ML Engineer focused on turning ideas
