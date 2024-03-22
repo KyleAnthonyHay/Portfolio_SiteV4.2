@@ -15,8 +15,8 @@ const WorkSection = () => {
         <MakeItSnow />
         <CountriesApp/>
         <QuizCraft/>
-        <MunchMap/>
         <SocialMediaApp />
+        <MunchMap/>
         <ColorfulConnectContainer />
       </div>
      
