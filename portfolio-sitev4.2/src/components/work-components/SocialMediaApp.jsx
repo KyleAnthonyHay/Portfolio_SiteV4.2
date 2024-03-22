@@ -32,7 +32,7 @@ const SocialMediaApp = () => {
           </div>
           <div className="description-text">
             <div className="project-name">{`Social Media App `}</div>
-            <div className="project-summary">{`Minimal Social Media Application with collective post feed. `}</div>
+            <div className="project-summary">{`Minimal social media application with collective post feed. Built with Flutter and Firebase. `}</div>
             <a href={githubRepoUrl} className="card-button" style={linkStyle} target="_blank" rel="noopener noreferrer">
                 <div className="go-to-code">Go to Code</div>
                 <img className="vector-icon" alt="" src={Vector} />

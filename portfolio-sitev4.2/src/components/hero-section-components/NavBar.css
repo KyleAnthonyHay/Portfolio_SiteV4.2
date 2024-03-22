@@ -11,11 +11,12 @@
   color: white;
   transition: 1s;
   text-decoration: None;
+
 }
 .navbar-links:hover {
   color: var(  --basic-dark-gray);
   scale: 1.05;
-  cursor:default;
+  cursor: pointer;
 }
 .links {
   display: flex;

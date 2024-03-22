@@ -46,7 +46,7 @@
     color: rgb(170, 45, 187);
     transform: translateY(-0.1rem);
     scale: 1.01;
-    cursor: default;
+    cursor: pointer;
 }
 .text-container p a:hover{
     cursor: pointer;
@@ -55,7 +55,6 @@
     font-size: 50px;
     color: white;
 }
-
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .about-container {

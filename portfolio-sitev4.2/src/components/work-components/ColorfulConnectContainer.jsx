@@ -3,6 +3,7 @@ import "./WorkCards.css";
 
 import Swift from "../../assets/technologies/swift.svg";
 import Firebase from "../../assets/technologies/firebase.svg";
+import Figma from "../../assets/technologies/figma.svg";
 import Vector from "../../assets/icons/vector.svg";
 import Graphic from "../../assets/graphics/colorful-connect.png";
 
@@ -20,10 +21,11 @@ const ColorfulConnectContainer = () => {
           <div className="project-icons">
             <img className="swift-icon" alt="" src={Swift} />
             <img className="firebase-icon" alt="" src={Firebase} />
+            <img className="swift-icon" alt="" src={Figma} />
           </div>
           <div className="description-text">
             <div className="project-name">{`Colorful Connect (In Progress) `}</div>
-            <div className="project-summary">{`Modern social Media app built with SwiftUI. `}</div>
+            <div className="project-summary">{`Modern social media app built with SwiftUI, adapted from Figma design. `}</div>
             <a href={githubRepoUrl} className="card-button" style={linkStyle} target="_blank" rel="noopener noreferrer">
                 <div className="go-to-code">Go to Code</div>
                 <img className="vector-icon" alt="" src={Vector} />
