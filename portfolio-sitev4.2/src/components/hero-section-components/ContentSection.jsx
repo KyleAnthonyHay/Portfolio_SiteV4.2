@@ -1,7 +1,7 @@
 import "./ContentSection.css";
 
 import ProfilePicture from "../../assets/portraits/profile-picture.jpg"
-import MyResume from "../../assets/resume.pdf";
+import MyResume from "../../assets/Kyle-Anthony_Resume.pdf";
 
 const ContentSection = () => {
   const linkStyle = {
