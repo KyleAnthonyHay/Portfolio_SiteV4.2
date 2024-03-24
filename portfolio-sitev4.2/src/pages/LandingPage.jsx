@@ -13,8 +13,8 @@ const Desktop = () => {
       <NavBar />
       <ContentSection />
       <TechnologySlider />
-      <WorkSection />
       <AboutSection />
+      <WorkSection />
       <Footer />
     </div>
   );

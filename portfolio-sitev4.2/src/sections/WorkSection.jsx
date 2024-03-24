@@ -13,9 +13,9 @@ const WorkSection = () => {
       <b className="work" id = "work-anchor">Work</b>
       <div className="work-container">
         <MakeItSnow />
+        <SocialMediaApp />
         <CountriesApp/>
         <QuizCraft/>
-        <SocialMediaApp />
         <MunchMap/>
         <ColorfulConnectContainer />
       </div>

@@ -23,7 +23,7 @@ const ColorfulConnectContainer = () => {
           </div>
           <div className="description-text">
             <div className="project-name">{`QuizCraft AI `}</div>
-            <div className="project-summary">{`OpenAI-GPT-Powered quiz generator built with Flutter and Firebase. `}</div>
+            <div className="project-summary">{`An AI-Powered customizable quiz generator built with Flutter and Firebase. `}</div>
             <a href={githubRepoUrl} className="card-button" style={linkStyle} target="_blank" rel="noopener noreferrer">
                 <div className="go-to-code">Go to Code</div>
                 <img className="vector-icon" alt="" src={Vector} />

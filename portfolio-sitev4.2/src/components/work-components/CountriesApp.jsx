@@ -21,7 +21,7 @@ const CountriesApp = () => {
           </div>
           <div className="description-text">
             <div className="project-name">{`Countries App `}</div>
-            <div className="project-summary">{`Country info-viewing app built in swift. `}</div>
+            <div className="project-summary">{`A comprehensive app designed in Swift that offers detailed insights into countries. `}</div>
             <a href={githubRepoUrl} className="card-button" style={linkStyle} target="_blank" rel="noopener noreferrer">
                 <div className="go-to-code">Go to Code</div>
                 <img className="vector-icon" alt="" src={Vector} />

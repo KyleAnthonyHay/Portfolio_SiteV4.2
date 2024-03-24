@@ -1,8 +1,8 @@
 .about-container {
     display: flex;
     flex-direction: row;
-    padding-top: 8rem;
-    padding-bottom: 10rem;
+    padding-top: 15rem;
+    padding-bottom: 4rem;
     align-items: center;
     justify-content: center;
 }
