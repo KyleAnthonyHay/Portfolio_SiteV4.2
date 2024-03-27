@@ -11,15 +11,15 @@
 }
 .logo-icon {
   width: 92px;
-  height: 92px;
   position: relative;
   object-fit: cover;
   transition: 1s;
+  padding-bottom: 1rem;
 }
 .logo-icon:hover {
   transform: translateY(-0.3rem);
   scale: 1.05;
-  cursor: pointer;
+  cursor: default;
 }
 .span {
   font-size: 20px;

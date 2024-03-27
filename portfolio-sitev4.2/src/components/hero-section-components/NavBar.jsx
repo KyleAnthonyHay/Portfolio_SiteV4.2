@@ -3,7 +3,7 @@ import React from "react";
 import { HashLink } from 'react-router-hash-link';
 
 //Assets
-import Logo from "../../assets/icons/logo.png";
+import Logo from "../../assets/icons/logo-laptop.png";
 import LinkedIn from "../../assets/socials/linkedin.svg";
 import GitHub from "../../assets/socials/github.svg";
 import X from "../../assets/socials/x.svg";
@@ -28,7 +28,7 @@ const AboutContainer = () => {
       <div className="links">
         <img className="faceemoji-icon" alt="" src = {Logo} />
         {/* <div className="navbar-links">About</div> */}
-        <a href="https://medium.com/@haykyle917" className="navbar-links" target="_blank"><div>Blog</div></a>
+        <a href="https://medium.com/@kyleanthonyhay" className="navbar-links" target="_blank"><div>Blog</div></a>
         {/* <HashLink smooth to="#work-anchor" className="navbar-links">Work</HashLink> */}
         <a href="mailto:haykyle917@gmail.com" className="navbar-links"><div>Contact</div></a>
 

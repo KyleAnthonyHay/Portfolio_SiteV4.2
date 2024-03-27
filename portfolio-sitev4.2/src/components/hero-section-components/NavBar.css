@@ -1,9 +1,9 @@
 .faceemoji-icon {
-  width: 2.5rem;
+  width: 1.8rem;
   position: relative;
-  height: 2.5rem;
   object-fit: cover;
   mix-blend-mode: normal;
+  transform: translateY(-0.2rem) translateX(.5rem);
 }
 .navbar-links {
   position: relative;

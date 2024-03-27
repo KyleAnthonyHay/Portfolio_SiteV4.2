@@ -12,11 +12,11 @@ const WorkSection = () => {
     <div id = "work-anchor" className="worksection">
       <b className="work" id = "work-anchor">Work</b>
       <div className="work-container">
-        <MakeItSnow />
         <SocialMediaApp />
-        <CountriesApp/>
         <QuizCraft/>
         <MunchMap/>
+        <MakeItSnow />
+        <CountriesApp/>
         <ColorfulConnectContainer />
       </div>
      

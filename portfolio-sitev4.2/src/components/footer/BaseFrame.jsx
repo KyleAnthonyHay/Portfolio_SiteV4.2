@@ -1,5 +1,5 @@
 import "./BaseFrame.css";
-import Logo from "../../assets/icons/logo.png";
+import Logo from "../../assets/icons/logo-laptop.png";
 
 const BaseFrame = () => {
   return (
@@ -25,7 +25,7 @@ const BaseFrame = () => {
             <b className="links1">Links</b>
             <div className="list-items">
               {/* <div className="footer-link">About</div> */}
-              <a href="https://medium.com/@haykyle917" className="footer-link" target="_blank"><div>Blog</div></a>
+              <a href="https://medium.com/@kyleanthonyhay" className="footer-link" target="_blank"><div>Blog</div></a>
               <a href="mailto:haykyle917@gmail.com" className="footer-link"><div>Contact</div></a>
             </div>
           </div>
