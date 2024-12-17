@@ -1,6 +1,6 @@
 import "./ContentSection.css";
 
-import ProfilePicture from "../../assets/portraits/profile-picture.jpg"
+import ProfilePicture from "../../assets/portraits/NewProfile-1.jpg"
 import MyResume from "../../assets/Kyle-Anthony_Resume.pdf";
 
 const ContentSection = () => {

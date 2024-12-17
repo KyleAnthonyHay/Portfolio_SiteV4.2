@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutSection.css'; // Importing the CSS file
 
-import Image from "../assets/portraits/profile-picture2.jpg";
+import Image from "../assets/portraits/NewProfile-3.jpg";
 
 const AboutSection = () => {
   const aboutText = "K"  
