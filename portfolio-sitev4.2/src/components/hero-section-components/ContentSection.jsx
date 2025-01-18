@@ -16,7 +16,7 @@ const ContentSection = () => {
           <span className="kyle-anthony">Kyle-Anthony</span>
         </div>
         <div className="a-mobileweb-developer">
-          Mobile/Web Developer and AI/ML Engineer focused on turning ideas
+          Mobile and Web Developer focused on turning ideas
           into a <span className="kyle-anthony">digital reality.</span>
         </div>
         <div className="buttons">
